@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mona Sans";
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.info {
+  background-color: #0f0f0f;
+  align-content: center;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.info img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.info h2 {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+.info #job {
+  margin-top: 2rem;
+}
+
+.info #location {
+  color: greenyellow;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.info nav {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.info nav ul {
+  list-style: none;
+}
+
+.info nav ul li {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info nav ul li a {
+  background-color: #333333;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10px;
+}
+
+.info nav ul li a:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+}
+
+.name {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
